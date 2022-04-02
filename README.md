@@ -1,9 +1,9 @@
 # Power Supply Case
 
-This is a small project for an lasercut enclosure for [this 12V switching PSU from Aliexpress](https://aliexpress.com/item/1005002728038351.html) which is also available from many other vendors.
+This is a small project for a lasercut enclosure for [this 12V switching PSU from Aliexpress](https://aliexpress.com/item/1005002728038351.html) which is also available from many other vendors. The whole thing is done in [FreeCAD](https://www.freecadweb.org/) so anyone can take a look.
 
 ## Background
-The idea was originally to 3D-print the case, but recently gaining access to a lasercutter I decided to go that route. The `simple_case` variant is just the walls of the 3D enclosure with the corresponding holes whereas the `*_cut` variant has added tabs with the `LCInterlocking` workbench. The `*.svg` files are then used for cutting.
+The idea was originally to 3D-print the case, but I recently gained access to a lasercutter, so I decided to go down that route. The `case_simple` variant is just the walls of the 3D enclosure with the corresponding holes whereas the `*_cut` variant has tabs added with the `LCInterlocking` workbench. The `*.svg` files are then used for cutting.
 
 ## Features
 Instead of measuring and parameterizing the model myself I decided to look for the models on [grabcad.com](GrabCAD) and base all cuts on them. I used the following models in the design process which can also be found in the `3d_models` folder:
